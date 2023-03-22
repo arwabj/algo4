@@ -1,0 +1,106 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+/* Header part */
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	color: #fff;
+}
+
+nav img{
+    width: 20%;
+ }
+ ul{
+    display: flex;
+    padding-right: 10%;
+ }
+
+ li {
+    margin: 1rem;
+ }
+ /*Main part*/
+ 
+ .health-intro {  
+	/*display: flex;
+	flex-direction: column;
+	align-items: center;*/
+	text-align: center;
+	margin:2% 10%
+ }
+ .health-intro div {
+	display: flex;
+	line-height: 1.75;
+	text-align: start;
+ }
+ .health-intro h1 {
+	font-size: 36px;
+	color: #00b39b;
+	letter-spacing: 3px;
+ }
+ .health-intro div p {
+	width: 45%;
+	font-weight: bold ;
+ }
+ .health-intro img {
+	width: 50px;
+
+ }
+ /* Countries part*/
+ .countries {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 2% 10%;
+	cursor: pointer;
+	
+ }
+ .country {
+	margin-bottom: 2%;
+	border-radius: 2%;
+ }
+ .country img {
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+ }
+ .country div {
+	display: flex;
+	justify-content: space-between;
+ }
+ 
+ /*end part*/
+ .end {
+	text-align: center;
+	color: #333;
+    margin-bottom: 0.75em;
+ }
+.end div button {
+	display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+ /*footer part*/
+ .foter{ 
+	display: block;
+    text-align: center;
+	margin:2% 10%
+    
+}
