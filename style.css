@@ -7,8 +7,15 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: rgb(110, 239, 243);
+	background-color: rgb(243, 110, 128);
 	color: #fff;
+}
+.home {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	margin: 2% 5%;
+	padding: 2%;
 }
 
 ul {
@@ -28,4 +35,24 @@ a {
 .logo {
 	padding: 1rem;
 	font-size: 18px;
+}
+.home h1 {
+	justify-content: center;
+	align-items: center;
+	width: 45%;
+	font-weight: bold ;
+	color: blue;
+}
+.home div {
+	display: block;
+
+}
+h2 {
+	justify-content: center;
+	color: rgb(197, 25, 68);
+	
+
+}
+.tableau {
+	justify-content: center;
 }
