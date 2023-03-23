@@ -2,6 +2,9 @@
 	font-family: "Roboto", sans-serif;
 	font-weight: lighter;
 }
+@media screen and (max-width: 300px) {
+    /* write your CSS in this code block */
+}
 /* Header part */
 nav {
 	display: flex;
@@ -16,20 +19,29 @@ nav {
 	justify-content: space-between;
 	margin: 2% 5%;
 	padding: 2%;
+	background-color: aqua;
+}
+.home p { color: #eff3f2;
+          font-family: 'Times New Roman', Times, serif;
+		  font-size: 250%;
+		  padding-left: 10%;
+		  font: weight 700px;;
 }
 
-ul {
-	display: flex;
-}
+
 
 li {
 	margin: 1rem;
+	padding-left: 10%;
 	list-style: none;
 }
 
 a {
 	text-decoration: none;
-	color: #fff;
+	color: #eff3f2;
+	font-style: italic;
+	font-size: large;
+	font-weight: 800%;
 }
 
 .logo {
@@ -39,9 +51,11 @@ a {
 .home h1 {
 	justify-content: center;
 	align-items: center;
-	width: 45%;
+	width: 60%;
 	font-weight: bold ;
 	color: blue;
+	font-size: 200%;
+	padding-left: 20%;
 }
 .home div {
 	display: block;
@@ -50,9 +64,29 @@ a {
 h2 {
 	justify-content: center;
 	color: rgb(197, 25, 68);
+	font: weight 100%;
+	font-size: 100%;
+	padding-left: 50%;
+	background-color: rgb(231, 231, 16);
+	
 	
 
 }
 .tableau {
 	justify-content: center;
+	padding-left: 40%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
 }
+.communication {
+	padding-left: 10%;
+
+
+}
+.communication a {
+	font-style: italic;
+	font-size: large;
+	font-weight: 800%;
+	color: blue;
+ }
