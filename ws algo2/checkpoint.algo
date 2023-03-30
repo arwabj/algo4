@@ -1,0 +1,27 @@
+ALGORITHM algorithm_name
+VAR
+    set1,set2 : ARRAY_OF_INTEGER
+    i,j : INTEGER
+    sum: INTEGER :=0
+    found : BOOLEAN
+
+BEGIN
+    for i from 0 to set1.length-1 DO
+    found := false
+    for i from 0 to set2.length-1 DO
+    IF(set1[i]) = set2[j] THEN
+    found := true
+    BREAK
+
+        
+    END_IF
+        
+    END_FOR
+    IF (not found) THEN
+    sum := sum + set1[i]
+    END_IF
+
+    
+
+END
+
